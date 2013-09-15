@@ -75,7 +75,7 @@
             var xpix = x * this.scale;
             var ypix = y * this.scale;
             this.ctx.fillStyle = color;
-            this.ctx.fillRect(xpix + this.originX, ypix + this.originY, thickness, thickness);
+            //this.ctx.fillRect(xpix + this.originX, ypix + this.originY, thickness, thickness);
             
             // draw the smooth conencting lines
             if(backxpix !== null){
@@ -84,6 +84,7 @@
                 this.ctx.moveTo(backxpix,backypix);
                 this.ctx.lineTo(xpix + this.originX,ypix + this.originY);
                 this.ctx.lineWidth = thickness;
+                this.ctx.lineJoin = "round";
                 this.ctx.strokeStyle = color;
                 this.ctx.stroke();
             }
