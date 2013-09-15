@@ -3,8 +3,9 @@ graphy.js - Simple HTML5 Canvas Graphing
 
 A HTML5 Canvas Library For Graphing Functions
 
-An example here: http://jsfiddle.net/shrimpboyho/57wZW/
+![sin](/graphy.PNG)
 
+An example here: http://jsfiddle.net/shrimpboyho/57wZW/
 ```js
 var canvas = document.getElementById('myCanvas');
 var graphymachine = new Graphy(canvas);
@@ -17,3 +18,4 @@ $('button').click(function () {
     graphymachine.graph(func, "orange",2);
 });
 ```
+
