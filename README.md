@@ -12,10 +12,7 @@ var graphymachine = new Graphy(canvas);
 graphymachine.setPixelsPerUnit(20);
 graphymachine.setOrigin(200,200);
 graphymachine.drawGrid();
+graphymachine.graph("x * Math.sin(10 * x)", "orange",2);
 
-$('button').click(function () {
-    var func = $('input').val();
-    graphymachine.graph(func, "orange",2);
-});
 ```
 
