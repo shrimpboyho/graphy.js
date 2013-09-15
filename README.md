@@ -7,6 +7,14 @@ A HTML5 Canvas Library For Graphing Functions
 
 An example here: http://jsfiddle.net/shrimpboyho/57wZW/
 
+##How to Install
+
+Include the library in your HTML as follows:
+```html
+<script src="wumbo.js"></script>
+<script src="your_code.js"></script>
+```
+
 ##Documentation
 
 Create a new ```Graphy()``` object and send in a canvas.
