@@ -11,7 +11,7 @@ An example here: http://jsfiddle.net/shrimpboyho/57wZW/
 
 Include the library in your HTML as follows:
 ```html
-<script src="wumbo.js"></script>
+<script src="graphy.js"></script>
 <script src="your_code.js"></script>
 ```
 
