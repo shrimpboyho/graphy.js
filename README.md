@@ -1,4 +1,4 @@
-graphy.js - Simple HTML5 Canvas Graphing
+[graphy.js]() - Simple HTML5 Canvas Graphing
 =========
 
 A HTML5 Canvas Library For Graphing Functions
